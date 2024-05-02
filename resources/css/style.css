@@ -1,0 +1,427 @@
+:root{
+--bg-o:     #071324;
+ --bg-card:  #222854;
+--bg-rosso: #b60226;
+--bg-azz: #5597c6;
+}
+
+
+
+/* CLASSI FONT  */
+*{
+  font-family: "Roboto", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+}
+
+
+h2,h3,h4,h5,h6 {
+  color: white;
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h1 {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #fdfdfd ;
+}
+
+/* FINE CLASSI FONT  */
+
+
+
+/* CLASSI COLORI TESTI E BG  */
+
+.active-custom{
+  color: white ;
+}
+
+.active-custom:hover{
+  color: white;
+}
+
+
+.active-custom.active{
+  color: var(--bg-rosso) !important;
+  animation-duration: 2s;
+}
+
+/* font titolo header */
+.font-presto{
+  color: var(--bg-rosso) !important;
+  font-size: 125px;
+  text-shadow: -4px -7px 2px var(--bg-card);
+}
+
+
+.brd-card{
+  border: 2px solid white;
+}
+
+.bg-nav{
+background-image: linear-gradient( var(--bg-card) , #34395d5e) ;
+}
+
+
+.bg-dropDown{
+  background-color: var(--bg-card) !important;
+} 
+
+
+.bg-card {
+  background-color: var(--bg-card);
+  box-shadow:
+  0 0 30px 5px #fff;
+}
+
+
+.bg-col-carosello{
+  background-color: var(--bg-card);
+}
+
+
+/* colore dropdown  */
+.drop-hover:hover{
+  background-color: rgb(43, 43, 125);
+}
+
+/* FINE CLASSI COLORI TESTI  E BG  */
+
+
+
+/* CLASSI TAG SEMANTICI DEFAULT  */
+body{
+  background: var(--bg-o);
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+
+footer{
+  background-color: var(--bg-o);
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+/* FINE CLASSI TAG SEMANTICI DEFAULT  */
+
+
+
+
+/* CLASSI RIDIMENSIONE LARGHEZZE/ALTEZZE  */
+.custom-footer{
+  height: 42vh;
+}
+
+
+/* .custom-index{
+  height: 30vh;
+} */
+
+.custom-footer-revisor{
+  height: 62vh;
+}
+
+.custom-form{
+  width: 500px;
+  min-height: 300px;
+}
+
+
+.form1{
+  height:350px;
+  width: 500px;
+}
+
+
+.img-preview{
+    width: 200px;
+    height: 200px;
+    background: center/cover;
+    background-repeat: no-repeat;
+}
+
+/* classe sfondo img header e logo */
+.imgHeader-custom{
+  width: 100%;
+  height: 80vh;
+  background:linear-gradient( rgba(255, 255, 255, 0) , rgba(255, 255, 255, 0)),url(/public/img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo{
+  background:url('/public/img/logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 85px;
+  height: 85px;
+}
+/* FINE CLASSI RIDIMENSIONE ALTEZZE/LARGHEZZE */
+
+
+/* CLASSI RIPOSIZIONAMENTO */
+.title-custom{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.custom-position{
+  position: relative;
+  top: 600px;
+}
+
+/* FINE CLASSI RIPOSIZIONAMENTO  */
+
+/* CLASSI BOTTONI  */
+
+.button-38 {
+  background-color: rgb(252, 248, 248);
+  border: 3px solid white;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: var(--bg-rosso);
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+
+.button-38:hover {
+  background-color:rgba(245, 222, 179, 0);
+  border: var(--bg-rosso) 3px solid;
+  color: white;
+  font-weight: bold;
+}
+
+.button-38:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-38:focus-visible {
+  box-shadow: none;
+}
+
+.btn-confirm{
+  background-color: var(--bg-azz);
+  color: white;
+}
+
+.btn-confirm:hover{
+  background-color: var(--bg-azz);
+  color: white;
+}
+
+
+.btn-categorie-roll{
+  background-color: var(--bg-azz);
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+.btn-categorie-roll:hover{
+  background-color: var(--bg-azz);
+  color: white;
+  
+}
+
+
+.btn-categorie{
+  background-color: var(--bg-azz);
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+.btn-categorie:hover {
+    background-color:rgba(245, 222, 179, 0);
+    border: var(--bg-azz) 3px solid;
+    color: white;
+    font-weight: bold;
+  }
+
+
+.bg-button{
+  background-image: radial-gradient(100% 100% at 100% 0, var(--bg-sNav) 0, var(--bg-s) 100%);
+  box-shadow: white 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+
+.bg-button:hover {
+  box-shadow: #ffffff 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+} 
+
+.button-29:focus {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+
+.bg-button:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+ 
+
+.buttonCustom {
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #2ba8fb;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+
+.buttonCustom:hover {
+  background-color: #6fc5ff;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
+
+
+.buttonCustom:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
+
+
+/* bottone diventa revisore  */
+.button-28 {
+  appearance: none;
+  background-color: #00d9ff;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #0e0e0d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+
+.button-28:hover {
+  color: #fff;
+  background-color: #00d9ff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+/* FINE BOTTONI  */
+
+
+/* MEDIA QUERY  */
+@media screen and (max-width: 500px) {
+  .center-row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 431px) {
+
+  h1{
+    font-size: 100px !important;
+  }
+  
+  .media-custom{
+    color: rgb(208, 7, 7) !important;
+  }
+  
+  
+  .title-revisor{
+    font-size: 50px !important;
+  }
+}
+
+
+.custom-overflow{
+  overflow-x: scroll;
+}
+
+
+
